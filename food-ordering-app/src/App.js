@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './navigation';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-exl font-bol underline">
-        Hello World!!
-      </h1>
+      <Navigation />
     </div>
   );
 }
